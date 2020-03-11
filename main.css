@@ -1,0 +1,332 @@
+.contain{
+    text-align: center;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 20% 20% auto 20%;
+    grid-gap: 4px;  
+}
+
+.grid-container > div{
+    
+    font-size: 30px;
+    text-align: center;
+    background-color:orange;
+    
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 11px;
+    
+}
+
+.grid-container2 > div{
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color:white;
+    padding-right: 20x;  
+}
+
+.grid-container3{
+
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 5px;
+    
+}
+
+.grid-container3 > div{
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    background-color:white;
+    margin-left: 25px
+    
+}
+
+
+#headmenu{
+    grid-column: 2/span 2;
+    background-color: #333;
+}
+
+#header{
+    grid-column: 2/span 2;
+    font-style: bold;
+    font-size: 40px;
+}
+
+#pic{
+    grid-column: 2/span 2;
+    background-color: white;
+    
+}
+
+#name{
+    grid-column: 2/span 2;
+    font-style: bold;
+    font-size: 35px;
+}
+
+#name2{
+    grid-column: 2/span 2;
+    font-style: bold;
+    font-size: 35px;
+    background-color: #333;
+}
+
+#menu{
+    grid-column: 2/span 1;
+    font-size: 30px;
+    font-style: bold;
+    background-color: #333;
+    color: white;
+    
+}
+
+#main{
+    grid-column: 3/span 1;
+    
+}
+
+#footer{
+    grid-column: 2/span 2;
+    font-style: bold;
+}
+
+.mepic{
+    width:350px
+}
+
+.infor{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.infor2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.infor3{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 40px;
+    color: orange;
+}
+
+.icon{
+    width :25px;
+}
+
+#subhead{
+    font-size:25px ;
+    font-style: bold;
+
+}
+
+#end{
+    grid-column: 1/span3;
+}
+
+.icon{
+    width: 20px;
+}
+
+.phoneicon{
+    width: 10px;
+}
+
+.workpic{
+    border-radius: 10px;
+    margin-top: 7px;
+    width: 250px;
+}
+
+.digimon{
+    border-radius: 10px;
+    margin-top: 7px;
+    width: 250px;
+}
+
+.havoc{
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.muscle{
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 250px;
+}
+
+.para1{
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.para2{
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    background-color: white;
+    margin-right: 80px;
+}
+
+.para3{
+    color: orange;
+    margin-top: 30px;
+}
+
+body{
+    background-color: #D3D2D1  ;
+}
+
+.piclink{
+    text-align: left;
+    margin-left: 300px;
+}
+
+.arrow{
+    width: 30px;
+    /* padding-left: 300px; */
+}
+
+.linkA{
+    color: orange;
+}
+
+.linkC{
+    color: black;
+}
+
+@media only screen and (max-width:650px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 4px;  
+    }
+
+    #headmenu{
+        grid-column: 1/span 1;
+        background-color: #333;
+    }
+
+    #header{
+        grid-column: 1/span 1;
+        font-style: bold;
+        font-size: 40px;
+    }
+    
+    #pic{
+        grid-column: 1/span 1;
+        background-color: white;
+        
+    }
+    
+    #name{
+        grid-column: 1/span 1;
+        font-style: bold;
+        font-size: 35px;
+        
+        
+    }
+    
+    #menu{
+        grid-column: 1/span 1;
+        font-size: 30px;
+        font-style: bold;
+        background-color: #333;
+        color: white;
+        
+    }
+    
+    #main{
+        grid-column: 1/span 1;
+        
+    }
+    
+    #footer{
+        grid-column: 1/span 1;
+        font-style: bold;
+    }
+
+    .grid-container2{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 11px;
+        padding-right: 30px;
+    }
+
+    #subhead{
+        grid-column: 1/span1;
+        font-size:25px ;
+        font-style: bold;
+    
+    }
+    
+    .grid-container3{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 5px;
+        padding-right: 45px;
+    }
+
+    #work{
+        grid-column: 1/span1;
+    }
+
+    .muscle{
+        margin-top: 7px;
+        width: 450px;
+    }
+
+    .digimon{
+        margin-top: 7px;
+        width: 300px;
+    }
+
+}
+---------------------------------------------------------------
+
+/* Add a black background color to the top navigation */
+.topnav {
+    
+    overflow: hidden;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+
+
+
+

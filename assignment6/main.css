@@ -1,0 +1,15 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.form1{
+    margin-left: 600px;
+    margin-right: 600px;
+}
+.form2{
+    margin-left: 450px;
+    margin-right: 450px;
+}

@@ -1,0 +1,9 @@
+.text11{
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to bottom, #ffcc00 0%, #ff9933 100%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}

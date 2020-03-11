@@ -1,0 +1,145 @@
+h1,.Instructions{
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+}
+.ingredient{
+    text-align: center;
+}
+
+.ingredient2,p{
+    font-size: 20px;
+}
+
+img{
+    width :200px;
+}
+
+.img0{
+    text-align: center;
+}
+
+.img1{
+    width: 50%;
+}
+
+.hr1{
+    height: 10px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.hr2{
+    height: 10px;
+    background-color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.img2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+body{
+    background-color: orange;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% auto 40%;
+    grid-gap: 10px;
+ }
+ 
+ .grid-container > div{
+     /* border: 1px solid black; */
+     font-size: 30px;
+     text-align: center;
+     background-color: whitesmoke;
+ }
+
+#header{
+    grid-column: 1/span 3;
+}
+
+#menu{
+    grid-column: 1/span 1;
+}
+
+#content{
+    grid-column: 2/span 1;
+}
+#right{
+    grid-column: 3/span 1;
+}
+
+#etc{
+    grid-column: 1/span 3;
+}
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 30% auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1/span 2;
+    }
+    
+    #menu{
+        grid-column: 1/span 1;
+        text-align: center;
+    }
+    
+    #content{
+        grid-column: 2/span 1;
+    }
+    #right{
+        grid-column: 1/span 2;
+    }
+    
+    #etc{
+        grid-column: 1/span 2;
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header{
+        grid-column: 1/span 1;
+    }
+    
+    #menu{
+        grid-column: 1/span 1;
+        text-align: center;
+    }
+    
+    #content{
+        grid-column: 1/span 1;
+    }
+    #right{
+        grid-column: 1/span 1;
+    }
+    
+    #etc{
+        grid-column: 1/span 1;
+    }
+}
+
+.left{
+    font-size: 25px;
+}
+

@@ -1,0 +1,53 @@
+h1,.Instructions{
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+}
+.ingredient{
+    text-align: center;
+}
+
+.ingredient2,p{
+    font-size: 20px;
+}
+
+img{
+    width :200px;
+}
+
+.img0{
+    text-align: center;
+}
+
+.img1{
+    width: 50%;
+}
+
+.hr1{
+    height: 10px;
+    background-color: orange;
+}
+
+.hr2{
+    height: 10px;
+    background-color: black;
+}
+
+.img2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+h3{
+    font-size: 25px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+
+
